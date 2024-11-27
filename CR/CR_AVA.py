@@ -324,7 +324,7 @@ def train_all():
             print(best_loss)
             print('**************************************************')
             best_model = copy.deepcopy(model)
-            torch.save(best_model, './model/RC-Swin.pt')
+            torch.save(best_model, './model/CR_Swin.pt')
 
 
 if __name__ == '__main__':
