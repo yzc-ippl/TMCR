@@ -102,7 +102,7 @@ def my_collate(batch):
 
 def load_data():
     data_image_dir = os.path.join(r'./AVA/images')
-    data_image_test_label_dir = os.path.join(r'./TMCR/test_TM.csv')
+    data_image_test_label_dir = os.path.join(r'./Model/test_TM.csv')
 
     transformed_dataset_test = ImageAVADataset(
         csv_file=data_image_test_label_dir,
