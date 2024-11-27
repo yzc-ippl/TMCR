@@ -142,7 +142,7 @@ def concat(TM_feature):
 
     all_data = all_data[columns]
 
-    all_data.to_csv('./TMCR/test_TM.csv', index=False)
+    all_data.to_csv('./Model/test_TM.csv', index=False)
 
 
 if __name__ == '__main__':
