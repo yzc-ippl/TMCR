@@ -21,7 +21,7 @@
 </div>
 
 
-## Code and Model：
+## Introduction：
 ### PyTorch implementation for the [paper](https://dl.acm.org/doi/abs/10.1145/3664647.3680972)  
 
 ### Model weight：[model](https://pan.baidu.com/s/13WDBJnBgHBvXUuODI4K1mw?pwd=4rd8)
@@ -44,7 +44,7 @@
 ├── TMCR/
 │   └── TMCR.py                       # Testing TMCR on AVA
 ```
-### 2. Download Pretrained Model Weght
+### 2. Download Pretrained Model Weight
 ```
 Swin-B Pretrained Weights: Place in ./Model/swin_b-68c6b09e.pth
 TMCR Model: Place your trained model at ./Model/TMCR_AVA.pt
