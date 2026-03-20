@@ -63,7 +63,7 @@ Column 12: TM_feature as a string representation of a vector
 ```
 ### 5. Running Inference
 ```
-python test.py
+python TMCR.py
 ```
 
 ## Citation
