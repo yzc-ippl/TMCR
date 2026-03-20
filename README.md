@@ -21,11 +21,11 @@ __*Zhichao Yang, Leida Li, Pengfei Chen, Jinjian Wu, and Weisheng Dong*__
 └── test.py                           # This inference script
 ```
 ### 2. Download Required Files
+```
 Swin-B Pretrained Weights: Download from torchvision models and place in ./Model/swin_b-68c6b09e.pth
-
 TMCR Model: Place your trained model at ./Model/TMCR_AVA.pt
-
 AVA Images: Download AVA dataset images to ./AVA/images/
+```
 ### 3. Prepare Test Data
 Your test_TM.csv should have the following format:
 ```
