@@ -47,7 +47,7 @@ This guide will help you get started with the TMCR inference code.
 ├── TMCR/
 │   └── TMCR.py                       # Testing TMCR on AVA
 ```
-### 3. Download Pretrained Model Weight
+### 3. Download Required Files
 ```
 Swin-B Pretrained Weights: Place in ./Model/swin_b-68c6b09e.pth
 TMCR Model: Place your trained model at ./Model/TMCR_AVA.pt
