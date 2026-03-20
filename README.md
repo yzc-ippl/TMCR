@@ -41,7 +41,7 @@ python test.py
 
 ## Citation
 If you find our work is useful, pleaes cite the paper:  
-```
+```bibtex
 @inproceedings{yang2024semantics,  
   title={Semantics-Aware Image Aesthetics Assessment using Tag Matching and Contrastive Ranking},  
   author={Yang, Zhichao and Li, Leida and Chen, Pengfei and Wu, Jinjian and Dong, Weisheng},  
