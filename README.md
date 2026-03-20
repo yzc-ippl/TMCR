@@ -17,7 +17,7 @@
 </div>
 
 <div align="center">
-  <img src="TMCR.png" width="800"/>
+  <img src="TMCR.png" width="850"/>
 </div>
 
 
