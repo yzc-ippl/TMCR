@@ -32,18 +32,21 @@
 ### 1. Directory Structure
 ```
    project_root/
-├── Model/
-│   ├── swin_b-68c6b09e.pth          # Swin-B pretrained weights
-│   └── TMCR_AVA.pt                   # Trained TMCR model
 ├── AVA/
-│   └── images/                       # AVA dataset images
+│   └── Image/                       # AVA dataset images
+│   └── Label/                       # AVA dataset labels
+├── TM/
+│   └── Attr_Tags.csv                 # Aesthetic attribute Tags
+│   └── Attr_Tags.csv                 # Sementic attribute Tags
+│   └── TM_AVA.py                     # Extract TM Features
+├── CR/
+│   └── CR_AVA.py                     # Extract CR Features (Training)
 ├── TMCR/
-│   └── test_TM.csv                   # Test data with TM features
-└── test.py                           # This inference script
+│   └── TMCR.py                       # Testing TMCR on AVA
 ```
-### 2. Download Required Files
+### 2. Download Pretrained Model Weght
 ```
-Swin-B Pretrained Weights: Download from torchvision models and place in ./Model/swin_b-68c6b09e.pth
+Swin-B Pretrained Weights: Place in ./Model/swin_b-68c6b09e.pth
 TMCR Model: Place your trained model at ./Model/TMCR_AVA.pt
 AVA Images: Download AVA dataset images to ./AVA/images/
 ```
