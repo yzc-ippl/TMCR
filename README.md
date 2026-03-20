@@ -1,6 +1,27 @@
-Semantics-Aware Image Aesthetics Assessment using Tag Matching and Contrastive Ranking (ACM MM2024)
-===
-__*Zhichao Yang, Leida Li, Pengfei Chen, Jinjian Wu, and Weisheng Dong*__  
+<h1 align="center">Semantics-Aware Image Aesthetics Assessment using Tag Matching and Contrastive Ranking</h1>
+
+<div align="center">
+    <a href="https://github.com/yzc-ippl/" target="_blank">Zhichao Yang</a><sup>1</sup>,
+    <a href="https://web.xidian.edu.cn/ldli/" target="_blank">Leida Li</a><sup>1*</sup>,
+    <a href="#" target="_blank">Pengfei Chen</a><sup>1</sup>,
+    <a href="#" target="_blank">Jinjian Wu</a><sup>1</sup>,
+    <a href="#" target="_blank">Weisheng Dong</a><sup>1</sup>,
+</div>
+
+<div align="center">
+  <sup>1</sup>School of Artificial Intelligence, Xidian University
+</div>
+
+<div align="center">
+<sup>*</sup>Corresponding author
+</div>
+
+<div align="center">
+  <img src="TMCR.png" width="800"/>
+</div>
+
+
+## Code and Model：
 ### PyTorch implementation for the [paper](https://dl.acm.org/doi/abs/10.1145/3664647.3680972)  
 
 ### Model weight：[model](https://pan.baidu.com/s/13WDBJnBgHBvXUuODI4K1mw?pwd=4rd8)
