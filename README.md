@@ -24,7 +24,7 @@
 ## Introduction：
 ### PyTorch implementation for the [paper](https://dl.acm.org/doi/abs/10.1145/3664647.3680972)  
 
-### Model weight：[model](https://pan.baidu.com/s/13WDBJnBgHBvXUuODI4K1mw?pwd=4rd8)
+### Model weight：[./model](https://pan.baidu.com/s/13WDBJnBgHBvXUuODI4K1mw?pwd=4rd8)
 
 
 ## Inference Guide：
