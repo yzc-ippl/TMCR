@@ -29,7 +29,10 @@
 
 ## Inference Guide：
 
-### 1. Directory Structure
+### 1. Overview
+This guide will help you get started with the TMCR inference code.
+
+### 2. Directory Structure
 ```
    project_root/
 ├── AVA/
@@ -44,13 +47,13 @@
 ├── TMCR/
 │   └── TMCR.py                       # Testing TMCR on AVA
 ```
-### 2. Download Pretrained Model Weight
+### 3. Download Pretrained Model Weight
 ```
 Swin-B Pretrained Weights: Place in ./Model/swin_b-68c6b09e.pth
 TMCR Model: Place your trained model at ./Model/TMCR_AVA.pt
 AVA Images: Download AVA dataset images to ./AVA/images/
 ```
-### 3. Prepare Test Data
+### 4. Prepare Test Data
 Your test_TM.csv should have the following format:
 ```
 image_id,score_1,score_2,...,score_10,TM_feature
@@ -58,7 +61,7 @@ image_id,score_1,score_2,...,score_10,TM_feature
 Columns 1-11: Image ID and 10 aesthetic score distributions
 Column 12: TM_feature as a string representation of a vector
 ```
-### 4. Running Inference
+### 5. Running Inference
 ```
 python test.py
 ```
